@@ -1,0 +1,75 @@
+.card {
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .tec{
+    width: 28rem;
+  }
+
+  .card-title {
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+  
+  .card-subtitle {
+    font-size: 28px;
+    font-weight: bold !important;
+    color: #303030;
+    letter-spacing: -1px;
+    line-height: 30px;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+  
+  .card-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #54595F;
+  }
+  
+  .card-button {
+    display: inline-block;
+    background-color: #0C70F2;
+    color: #fff;
+    width: 39%;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: none;
+    border: none;
+    border-radius: 15px;
+    padding: 12px;
+    font-weight: bold !important;
+    cursor: pointer;
+  }
+  
+  .card-button:hover {
+    background-color: #3a6aa9;
+  }
+  
+
+  .card-content{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    text-align: start;
+    
+  }
+
+  .tec2{
+    width: 25rem;
+  }
+
+  .card-subtitle2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #303030;
+    letter-spacing: 0px;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+

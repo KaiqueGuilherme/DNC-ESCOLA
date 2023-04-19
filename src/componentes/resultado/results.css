@@ -1,0 +1,21 @@
+.container_section_results{
+  display: flex;
+}
+
+.results{
+
+  padding: 40px;
+  color: white;
+ 
+}
+
+.title_result{
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.title_number{
+  font-size: 50px;
+}
+

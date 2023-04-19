@@ -1,0 +1,57 @@
+.card-form{
+    display: flex !important;
+    gap: 74px;
+    align-items: center;
+    justify-content: center;    
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-form-Control{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title_result{
+    color: white;
+    font-size: 40px;
+    text-align: start;
+    margin: 0;
+    font-weight: bold;
+}
+
+.description_result{
+    color: white;
+    font-size: 20px;
+    text-align: start;
+    margin: 0;
+}
+
+.form_area{
+    background-color: white;
+    border-radius: 50px;
+    width: 350px;
+    padding: 35px;
+    padding-top: 45px;
+
+}
+
+
+  .termos{
+    display: flex;
+    text-align: start;
+    align-items: center;
+  }
+
+  .obgr{
+    color: brown;
+    font-size: 30px;
+  }
+
+
+.button-enviar{
+    width: 190px !important;
+}

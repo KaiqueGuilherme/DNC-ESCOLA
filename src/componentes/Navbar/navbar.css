@@ -1,0 +1,46 @@
+.logo{
+    width: 6rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Container2{
+    padding: 0rem 5rem !important;
+}
+
+.buttonNav {
+    border-radius: 12px !important;
+    border: none !important;
+    font-size: 20px !important;
+    padding: 4px 28px !important;
+    letter-spacing: 0px !important;
+    font-weight: bold !important;
+    text-transform: none !important;
+    animation: jump 1.5s infinite; /* adicionamos a animação aqui */
+  }
+  
+  .button:hover {
+    background-color: #3a6aa9;
+  }
+  
+  @keyframes jump {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @media (max-width: 650px) {
+    .Container2{
+        padding: 0 !important;
+    }
+  }
