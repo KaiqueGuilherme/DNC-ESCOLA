@@ -2,20 +2,38 @@
   display: flex;
 }
 
-.results{
+.title_number {
+  display: block !important;
+  font-size: 80px !important;
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  font-weight: bold;
+}
 
-  padding: 40px;
-  color: white;
- 
+.results{
+  color: white; 
 }
 
 .title_result{
   font-size: 30px;
-  margin: 0;
+  width: 430px;
   font-weight: bold;
 }
 
-.title_number{
-  font-size: 50px;
+.result_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.title_number{
+  font-size: 20px;
+}
+
+.description_result2{
+  font-size: 20px;
+  width: 330px;
+
+}

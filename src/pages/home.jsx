@@ -6,6 +6,8 @@ import './home.css'
 import Imgcard from "../componentes/item_img/itemImg";
 import Result from "../componentes/resultado/resultado";
 import CardArea from "../componentes/area_form/form_area";
+import Resultsa from "../componentes/result1/result";
+import Result2 from "../componentes/result2/result2";
 
 
 function Home() {
@@ -29,16 +31,16 @@ function Home() {
           </div>
           </div>
           <div className="resultado">
-            <Container maxWidth="xl" className='Container2' sx={{display: 'flex', alignItems:'center'}}>
-            <Result
+            <Container maxWidth='xl' sx={{ display: 'flex',  gap: '15px', height: '100%',  alignItems:'center', gap: '80px', padding:'50px', justifyContent:'center', flexWrap: 'wrap'}}>
+            <Resultsa className='primeiro'
             title_result="Somos obcecados por resultados e por isso mostramos nossos números."/>
              <Result
             Number_result="99,57%"
             Description_result="dos nossos alunos estão empregados
             em 3 meses após sua formatura"/>
-             <Result
-            Number_result2="+12mil"
-            Description_result2="alunos impactados
+             <Result2
+            Number_result="+12mil"
+            Description_result="alunos impactados
             por todo o Brasil"/>
             </Container>
           </div>

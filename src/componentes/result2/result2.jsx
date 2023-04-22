@@ -1,9 +1,8 @@
 import React from 'react';
-import './results.css';
 import { Container } from '@mui/material';
 
-export default function Results(props) {
-  const { Description_result, title_result, Number_result ,Description_result2, Number_result2 } = props;
+export default function Results2(props) {
+  const { Description_result, Number_result } = props;
 
   return (
     <div className="results"> {/* adicione uma classe "results" para o contêiner pai */}
